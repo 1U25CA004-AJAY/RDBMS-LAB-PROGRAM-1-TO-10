@@ -1,17 +1,4 @@
-DROP DATABASE IF EXISTS CollegeDB;
-CREATE DATABASE CollegeDB;
-USE CollegeDB;
+create table student(StudentID int(5) primary key,StudentName varchar(20) NOT NULL,DOB  DATE UNIQUE,Gender varchar(10) NOT NULL,DepartmentID int(5));
+desc student;
 
--- Create Student table
 
--- StudentID
-
--- StudentName
-
--- DOB
-
--- Gender
-
--- DepartmentID
-
--- Add constraints
